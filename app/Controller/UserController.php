@@ -165,7 +165,8 @@ class UserController extends BaseController
 				'in' => '{{name}} doit être compris dans {{haystack}}',
 				'image' => '{{name}} doit être une image',
 				'usernameNotExists' => 'Votre {{name}} existe déjà',
-				'emailNotExists' => 'Votre {{name}} existe déjà'
+				'emailNotExists' => 'Votre {{name}} existe déjà',
+				'email' => "L'email entré n'est pas valide"
 			);
 			// je parcours la liste de mes validateurs en récupérant aussi le
 			// nom du champ en clé
